@@ -143,7 +143,7 @@ PORT     STATE        SERVICE       LATENCY   BANNER
 ## Project Structure
 
 <div align="center">
-<img src="./architecture.svg" width="100%" alt="AVADON Project Structure"/>
+<img src="./Project Structure.svg" width="100%" alt="AVADON Project Structure"/>
 </div>
 
 ---
