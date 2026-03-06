@@ -53,7 +53,7 @@ Built as an educational alternative to Nmap to understand how port scanners work
 
 ### Requirements
 - Kali Linux / Debian-based distro
-- `g++` with C++17 support
+- `C++` with C++17 support
 - `cmake >= 3.16`
 
 ```bash
