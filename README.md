@@ -1,5 +1,3 @@
-# AVADON
-
 <!--
   AVADON — Network Reconnaissance Framework
   Author: Oppressor2045
@@ -12,7 +10,7 @@
 ![Language](https://img.shields.io/badge/Language-C%2B%2B17-0a0f2e?style=for-the-badge&logo=cplusplus&logoColor=4488ff)
 ![Platform](https://img.shields.io/badge/Platform-Kali_Linux-0a0f2e?style=for-the-badge&logo=kalilinux&logoColor=557fff)
 ![Version](https://img.shields.io/badge/Version-1.0.0-0a0f2e?style=for-the-badge&logoColor=4488ff)
-![License](https://img.shields.io/badge/License-MIT-0a0f2e?style=for-the-badge&logoColor=4488ff)
+[![License](https://img.shields.io/badge/License-MIT-0a0f2e?style=for-the-badge&logoColor=4488ff)](./LICENSE)
 
 </div>
 
@@ -55,7 +53,7 @@ Built as an educational alternative to Nmap to understand how port scanners work
 
 ### Requirements
 - Kali Linux / Debian-based distro
-- `C++` with C++17 support
+- `g++` with C++17 support
 - `cmake >= 3.16`
 
 ```bash
@@ -78,7 +76,7 @@ sudo make install
 
 ```bash
 # Basic scan (top 1024 ports)
-./avadon xxx.xxx.x.x
+./avadon 192.168.1.1
 
 # Scan specific ports with banner grabbing
 ./avadon -t 192.168.1.1 -p 22,80,443,8080 --svc
@@ -116,7 +114,7 @@ sudo make install
 
 ```
 [12:34:01] [INFO ] AVADON v1.0.0 initialized
-[12:34:01] [INFO ] Target  : xxx.xxx.x.x (IP)
+[12:34:01] [INFO ] Target  : 192.168.1.1
 [12:34:01] [INFO ] Resolved 1 host(s)
 [12:34:01] [INFO ] Port range: 1-1024 (1024 ports)
 
@@ -219,7 +217,7 @@ CMake 빌드 스크립트. C++17 표준, `Release` / `Debug` 플래그, `Threads
 
 ## Author
 
-**Oppressor2045**
+**Oppressor2045** — Cyber Security · Game Development
 
 ---
 
