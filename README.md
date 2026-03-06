@@ -142,19 +142,9 @@ PORT     STATE        SERVICE       LATENCY   BANNER
 
 ## Project Structure
 
-```
-AVADON/
-├── CMakeLists.txt
-├── README.md
-├── include/
-│   ├── scanner.hpp
-│   ├── argparser.hpp
-│   ├── logger.hpp
-│   └── banner.hpp
-└── src/
-    ├── main.cpp
-    └── scanner.cpp
-```
+<div align="center">
+<img src="./architecture.svg" width="100%" alt="AVADON Project Structure"/>
+</div>
 
 ---
 
